@@ -11,7 +11,7 @@ const webhookClient = new WebhookClient(
   process.env.WEBHOOK_TOKEN,
 );
 
-const PREFIX = "$";
+const PREFIX = "R";
 
 client.on('ready', () => {
   console.log(`${client.user.tag} has logged in.`);
